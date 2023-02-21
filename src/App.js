@@ -1,12 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 
+const estilos = {
+  color: 'yellow',
+}
+
 function App() {
   return (
+
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p style ={estilos}>
           Bienvenidos a mi aplicacion
         </p>
         <a
