@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 
-function ContainerOutsideExample() {
+function Contenedor () {
   return (
     <Container>
       <Navbar expand="lg" variant="light" bg="light">
@@ -12,5 +12,3 @@ function ContainerOutsideExample() {
     </Container>
   );
 }
-
-export default ContainerOutsideExample;
