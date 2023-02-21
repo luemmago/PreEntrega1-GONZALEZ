@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import Contenedor from 'components/navbar.js'; 
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          En construccion 
+          En construccion
         </a>
       </header>
     </div>
