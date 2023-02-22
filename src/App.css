@@ -1,4 +1,17 @@
+*{
+  margin: 0;
+}
+
+nav div {
+  background-color: rgb(229, 245, 15);
+}
+
 .san {
-    width: 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
+}
+
+img { 
+  display: block !important;
+  gap: 5px;
 }
