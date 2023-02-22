@@ -1,4 +1,4 @@
-
+import Navbar from "./components/Navbar.js";
 
 function App() {
 
@@ -12,6 +12,8 @@ function App() {
       <h2>
         EN CONSTRUCCION
       </h2>
+
+      { Navbar }
 
     </div>
   );
