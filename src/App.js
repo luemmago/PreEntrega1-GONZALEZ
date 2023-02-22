@@ -1,20 +1,11 @@
 import Navbar from "./components/Navbar.js";
+import CartWidget from "./components/CartWidget.js";
 
 function App() {
 
   return (
-
     <div>
-
-      <section>
-        SELECCION DE HOY
-      </section>
-      <h2>
-        EN CONSTRUCCION
-      </h2>
-
-      { Navbar }
-
+      <Navbar />
     </div>
   );
 }
