@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar.js";
 import CartWidget from "./components/CartWidget.js";
-import './App.css'
+import './App.scss'
 
 function App() {
 
