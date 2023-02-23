@@ -4,6 +4,7 @@
 
 nav div {
   background-color: rgb(229, 245, 15);
+  padding: 1%;
 }
 
 .san {
@@ -14,4 +15,20 @@ nav div {
 img { 
   display: block !important;
   gap: 5px;
+}
+
+h1 {
+  background-color: green;
+  color: white;
+  padding: 1%;
+}
+
+button {
+  background-color: blue;
+  color: rgb(255, 251, 0);
+}
+
+span {
+  background-color: red !important;
+  color: white !important;
 }
