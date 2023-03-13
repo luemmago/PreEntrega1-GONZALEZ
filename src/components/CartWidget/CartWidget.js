@@ -1,11 +1,12 @@
-import Navbar from "../Navbar/Navbar"
+import Navbar from "../Navbar/Navbar.js";
+import './CartWidget.scss';
 
 export const CartWidget = () => {
 
     return(
 
        <div>
-            <img src="" > </img>
+           <img src='./logo/TNS.png' alt="Logo" className="logo" /> 
         </div>
 
     )

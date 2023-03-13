@@ -1,13 +1,15 @@
 import Navbar from "./components/Navbar/Navbar.js";
 import './App.css'
-import ItemListContainer from "./components/ItemListContainer.js";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer.js";
+import CartWidget from "./components/CartWidget/CartWidget.js";
 
 function App() {
 
   return (
     <div className="card" width= '5'>
+      
       <Navbar />
-
+      
       <ItemListContainer />
 
       <br></br>
