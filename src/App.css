@@ -8,18 +8,37 @@ img {
 
 
 .equipos{
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 
-.card-body { 
-  border: 5px solid;
+.card-body{ 
+  display: flex;
+  justify-content: center !important;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+
 }
 
-.card-text { 
+.card-text {
   background-color: red;
-  border: 1px;
+  border: 5px solid;
   color: white;
   margin: auto;
   padding: auto;
+  text-align: center;
+}
+
+button { 
+  background-color: green;
+  color: greenyellow;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+
+span{
+  background-color: aliceblue;
+  color: green;
 }
