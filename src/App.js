@@ -6,11 +6,11 @@ import CartWidget from "./components/CartWidget/CartWidget.js";
 function App() {
 
   return (
-    <div className="card" width= '5'>
+    <div className="card">
       
       <Navbar />
       
-      <ItemListContainer />
+      <ItemListContainer greetings="Bienvenidos"/>
 
       <br></br>
        

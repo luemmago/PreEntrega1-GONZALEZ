@@ -10,10 +10,11 @@ img {
 .equipos{
   width: 150px;
   height: 150px;
+  display: flex;
 }
 
 .card-body{ 
-  display: flex;
+  display: flex !important;
   justify-content: center !important;
   margin: auto;
   padding: auto;
@@ -21,10 +22,17 @@ img {
 
 }
 
+.card {
+  display: flex;
+}
+
 .card-text {
   background-color: red;
   border: 5px solid;
   color: white;
+  text-align: center;
+  margin: auto;
+  padding: auto;
   text-align: center;
 }
 
