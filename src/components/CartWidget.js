@@ -5,7 +5,7 @@ export const CartWidget = () => {
     return(
 
        <div>
-            <img src="/FUTBOL-LIVE/iconos/TNS.png" alt> </img>
+            <img src="" alt> </img>
        </div>
 
     )

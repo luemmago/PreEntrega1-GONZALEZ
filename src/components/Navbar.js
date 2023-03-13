@@ -27,7 +27,7 @@ const Navbar = () => {
                   aria-expanded="false">
                   Otras Categorias
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a className="dropdown-item" href="#">Primera Nacional</a></li>
                   <li><a className="dropdown-item" href="#">Divisiones menores</a></li>
                   <li>
