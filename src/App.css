@@ -2,33 +2,24 @@
   margin: 0;
 }
 
-nav div {
-  background-color: rgb(229, 245, 15);
-  padding: 1%;
-}
-
-.san {
-  width: 300px;
-  height: 300px;
-}
-
 img { 
-  display: block !important;
   gap: 5px;
 }
 
-h1 {
-  background-color: green;
+
+.equipos{
+  width: 200px;
+  height: 200px;
+}
+
+.card-body { 
+  border: 5px solid;
+}
+
+.card-text { 
+  background-color: red;
+  border: 1px;
   color: white;
-  padding: 1%;
-}
-
-button {
-  background-color: blue;
-  color: rgb(255, 251, 0);
-}
-
-span {
-  background-color: red !important;
-  color: white !important;
+  margin: auto;
+  padding: auto;
 }

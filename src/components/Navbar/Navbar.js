@@ -1,4 +1,5 @@
 import CartWidget from "../CartWidget/CartWidget.js";
+import  './Navbar.scss'
 
 
 const Navbar = () => {
@@ -25,8 +26,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Otras Categorias
+                  aria-expanded="false">Otras Categorias
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a className="dropdown-item" href="#">Primera Nacional</a></li>
