@@ -1,13 +1,14 @@
-import Navbar from "./navbar"
+import Navbar from "../Navbar/Navbar"
 
 export const CartWidget = () => {
 
     return(
 
        <div>
-            <img src="" alt> </img>
-       </div>
+            <img src="" > </img>
+        </div>
 
     )
 }
+
 export default CartWidget
